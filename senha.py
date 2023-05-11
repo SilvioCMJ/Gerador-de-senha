@@ -1,7 +1,8 @@
 from faker import Faker
 
 #   puxando lib
-f = Faker()
+gerador = Faker()
+
 # gerando e exibindo senha
-senha = f.password()
+senha = gerador.password()
 print(senha)
